@@ -11,7 +11,7 @@ else
 	CLEAN_CMD_PYCACHE := find . -type d -name "__pycache__" -exec rm -rf {} +
 endif
 
-.DEFAULT_GOLA := run
+.DEFAULT_GOAL := run
 
 clean:
 	@echo Removing __pychache__ folders...
@@ -33,4 +33,4 @@ requirements: venv
 	$(PYTHON) -m pip install -r requirements.txt
 
 run: requirements
-
+	$(PYTHON) main.py
