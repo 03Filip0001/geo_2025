@@ -2,7 +2,7 @@ import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 
-print("\n\nPROJEKTNI ZADATAK 9 (GEO 1)\n####################")
+print("\n\nPROJEKTNI ZADATAK 9 (GEO 1)\n---------------------------\n")
 
 # Loading data from .shp file (adm1 - opstine Srbije)
 try:
